@@ -39,6 +39,14 @@ in using the `--taxons` argument. For instance:
 ./get_assembly_len_and_num_protein_coding_genes_of_taxon.sh \
         --taxons "mus musculus" "Drosophila melanogaster"
 ```
+```
+taxon	assembly_length	num_protein_coding_genes
+mus musculus	2728206152	26251
+Drosophila melanogaster	143706478	13986
+```
+
+**Note that this will take some time as it will query the NCBI databases to 
+retrieve this information.**
 
 ## 6 Release History
 
