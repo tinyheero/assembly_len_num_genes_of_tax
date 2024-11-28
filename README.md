@@ -20,7 +20,6 @@ You will need the NCBI command-line tools `datasets`. This can be installed
 using conda:
 
 ```bash
-# Install 
 conda install -c conda-forge ncbi-datasets-cli
 ```
 
